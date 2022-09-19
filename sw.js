@@ -27,24 +27,24 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-4419f37db98c536b1a86.js"
+    "url": "webpack-runtime-b5484e09e4cbf57be1fd.js"
   },
   {
     "url": "framework-d24ffc6a52f0b7df5831.js"
   },
   {
-    "url": "app-2f2d759694385a74e335.js"
+    "url": "app-c05d9055bba6726c8228.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b38c2f5a1326e92b3ed12862c0321054"
+    "revision": "2a552576f59ac73dea8c37e34a153dc3"
   },
   {
     "url": "polyfill-0af18ce886c851496de4.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d2022ef9f7db95354a8f9d2cf25305f8"
+    "revision": "c3cb41441a3e3f9a0c94440ff49ce916"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -154,7 +154,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/nicobici/app-2f2d759694385a74e335.js`))) {
+  if (!resources || !(await caches.match(`/nicobici/app-c05d9055bba6726c8228.js`))) {
     return await fetch(event.request)
   }
 
