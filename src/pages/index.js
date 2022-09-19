@@ -41,13 +41,17 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic1} alt="" />
             </span>
-            $12.000
             <Link to="/Generic">
               <h2>Align II - Specialized 2</h2>
               <div className="content">
-                <p>$12.000</p>
+                <p>Descripcion</p>
               </div>
             </Link>
+            <div className="boton">
+              <div href="/" className="button small">
+                $12.000
+              </div>
+            </div>
           </article>
           <article className="style2">
             <span className="image">
@@ -200,7 +204,7 @@ const IndexPage = () => (
               </div>
             </Link>
           </article>
-          <article className="style4"> 
+          <article className="style4">
             <span className="image">
               <img src={pic13} alt="" />
             </span>
