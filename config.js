@@ -1,31 +1,31 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter phantom', // <title>
-  manifestName: 'Phantom',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'nicobici', // <title>
+  manifestName: 'Nico Bici',
+  manifestShortName: 'Nicobici', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.svg',
+  manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/nicobici/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'nicobici',
+  subHeading: 'Bicicletas y articulos ',
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
+      icon: 'fa-instagram',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://instagram.com/',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/',
     },
   ],
 };

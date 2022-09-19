@@ -2,12 +2,21 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/01.jpg';
-import pic2 from '../assets/images/02.jpg';
-import pic3 from '../assets/images/03.jpg';
-import pic4 from '../assets/images/04.jpg';
-import pic5 from '../assets/images/05.jpg';
-import pic6 from '../assets/images/06.jpg';
+import pic1 from '../assets/images/AlignIISpecialized2.jpg';
+import pic2 from '../assets/images/Chamonix2Specialized.png';
+import pic3 from '../assets/images/CHARGERMTBMerida.jpg';
+import pic4 from '../assets/images/DivergeSportSpecialized.png';
+import pic5 from '../assets/images/MATTSJ.24+Merida.png';
+import pic6 from '../assets/images/ProperoIIISpecialized.jpg';
+import pic7 from '../assets/images/REACTO8000Merida.jpg';
+import pic8 from '../assets/images/Chamonix2Specialized.png';
+import pic9 from '../assets/images/Rockhopper Elite - Specialized.png';
+import pic10 from '../assets/images/RoubaixSportSpecialized.png';
+import pic11 from '../assets/images/SCULTURAENDURANCE9000Merida.png';
+import pic12 from '../assets/images/SCULTURATEAMMerida.png';
+import pic13 from '../assets/images/SirrusXSpecialized.png';
+import pic14 from '../assets/images/SPEEDER200Merida.png';
+import pic15 from '../assets/images/TarmacSL6SportSpecialized.png';
 
 import { Link } from 'gatsby';
 
@@ -32,13 +41,11 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic1} alt="" />
             </span>
+            $12.000
             <Link to="/Generic">
-              <h2>Magna</h2>
+              <h2>Align II - Specialized 2</h2>
               <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
+                <p>$12.000</p>
               </div>
             </Link>
           </article>
@@ -47,12 +54,9 @@ const IndexPage = () => (
               <img src={pic2} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Lorem</h2>
+              <h2>Chamonix 2 Specialized</h2>
               <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
+                <p>$17.500</p>
               </div>
             </Link>
           </article>
@@ -114,7 +118,7 @@ const IndexPage = () => (
           </article>
           <article className="style2">
             <span className="image">
-              <img src={pic1} alt="" />
+              <img src={pic7} alt="" />
             </span>
             <Link to="/Generic">
               <h2>Ipsum</h2>
@@ -128,7 +132,7 @@ const IndexPage = () => (
           </article>
           <article className="style3">
             <span className="image">
-              <img src={pic2} alt="" />
+              <img src={pic8} alt="" />
             </span>
             <Link to="/Generic">
               <h2>Dolor</h2>
@@ -142,7 +146,7 @@ const IndexPage = () => (
           </article>
           <article className="style1">
             <span className="image">
-              <img src={pic3} alt="" />
+              <img src={pic9} alt="" />
             </span>
             <Link to="/Generic">
               <h2>Nullam</h2>
@@ -156,7 +160,7 @@ const IndexPage = () => (
           </article>
           <article className="style5">
             <span className="image">
-              <img src={pic4} alt="" />
+              <img src={pic10} alt="" />
             </span>
             <Link to="/Generic">
               <h2>Ultricies</h2>
@@ -170,7 +174,7 @@ const IndexPage = () => (
           </article>
           <article className="style6">
             <span className="image">
-              <img src={pic5} alt="" />
+              <img src={pic11} alt="" />
             </span>
             <Link to="/Generic">
               <h2>Dictum</h2>
@@ -184,7 +188,49 @@ const IndexPage = () => (
           </article>
           <article className="style4">
             <span className="image">
-              <img src={pic6} alt="" />
+              <img src={pic12} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Pretium</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style4"> 
+            <span className="image">
+              <img src={pic13} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Pretium</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style4">
+            <span className="image">
+              <img src={pic14} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Pretium</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style4">
+            <span className="image">
+              <img src={pic15} alt="" />
             </span>
             <Link to="/Generic">
               <h2>Pretium</h2>
