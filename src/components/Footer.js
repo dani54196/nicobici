@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="inner">
         <ContactForm />
         <section>
-          <h2>Follow</h2>
+          <h2>Seguinos</h2>
           <ul className="icons">
             {config.socialLinks.map(social => {
               const { icon, name, url } = social;
@@ -22,9 +22,9 @@ export default function Footer() {
           </ul>
         </section>
         <ul className="copyright">
-          <li>&copy; Nicobici. All rights reserved</li>
+          <li>&copy; Nicobici.</li>
           <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
+            Design: <a href="http://softwareofsouth.xyz">SOS</a>
           </li>
         </ul>
       </div>

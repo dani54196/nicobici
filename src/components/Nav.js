@@ -8,13 +8,13 @@ export default function Nav({ onClose = () => {} }) {
         <h2>Menu</h2>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Bicicletas</Link>
           </li>
           <li>
-            <Link to="/Generic">Generic Page</Link>
+            <Link to="/Generic">Cascos</Link>
           </li>
           <li>
-            <Link to="/Elements">Elements</Link>
+            <Link to="/Elements">Contacto</Link>
           </li>
         </ul>
       </div>
