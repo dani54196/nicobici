@@ -78,11 +78,11 @@ const IndexPage = () => (
             <h2>Roubaix Sport - Specialized</h2>
             <h3>$250,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#googlea">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="googlea" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -124,11 +124,11 @@ const IndexPage = () => (
             <h2>Diverge Sport Carbon - Specialized</h2>
             <h3>$150,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#3">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="3" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -161,11 +161,11 @@ const IndexPage = () => (
             <h2>Diverge Sport Carbon - Specialized</h2>
             <h3>$150,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#4">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="4" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -201,11 +201,11 @@ const IndexPage = () => (
             <h2>Sirrus X - Specialized</h2>
             <h3>$120,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#5">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="5" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -239,11 +239,11 @@ const IndexPage = () => (
             <h2>SCULTURA TEAM - Merida</h2>
             <h3>$120,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#6">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="6" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -292,11 +292,11 @@ const IndexPage = () => (
             <h2>SCULTURA ENDURANCE 9000 - Merida</h2>
             <h3>$267,500</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#7">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="7" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -345,11 +345,11 @@ const IndexPage = () => (
             <h2>SPEEDER 200 - Merida</h2>
             <h3>$200,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#8">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="8" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -379,11 +379,11 @@ const IndexPage = () => (
             <h2>MATTS J. 24+ - Merida</h2>
             <h3>$247,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#9">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="9" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -430,11 +430,11 @@ const IndexPage = () => (
             <h2>REACTO 8000 - Merida</h2>
             <h3>$211,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#10">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="10" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -469,11 +469,11 @@ const IndexPage = () => (
             <h2>Align II - Specialized</h2>
             <h3>$12,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#c1">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="c1" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -512,11 +512,11 @@ const IndexPage = () => (
             <h2>Chamonix 2 - Specialized</h2>
             <h3>$17,500</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#c2">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="c2" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -543,11 +543,11 @@ const IndexPage = () => (
             <h2>CHARGER MTB - Merida</h2>
             <h3>$20,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#c3">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="c3" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -575,11 +575,11 @@ const IndexPage = () => (
             <h2>SHADOW Junior - Merida</h2>
             <h3>$25,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#c4">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="c4" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
@@ -607,11 +607,11 @@ const IndexPage = () => (
             <h2>Propero III - Specialized</h2>
             <h3>$14,000</h3>
             <p>
-              <a class="cta" href="#google">
+              <a class="cta" href="#c5">
                 Saber mas
               </a>
             </p>
-            <div id="google" class="modaloverlay">
+            <div id="c5" class="modaloverlay">
               <div class="modal">
                 <a href="#close" class="close">
                   &times;
