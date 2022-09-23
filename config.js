@@ -11,21 +11,5 @@ module.exports = {
   heading: 'nicobici',
   subHeading: 'Bicicletas y articulos ',
   // social
-  socialLinks: [
-    {
-      icon: 'fa-instagram',
-      name: 'Github',
-      url: 'https://instagram.com/',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/',
-    },
-  ],
+
 };

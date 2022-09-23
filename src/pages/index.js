@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import Descripcion from '../components/Descripcion';
 
 import bic01 from '../assets/images/RockhopperEliteSpecialized.png';
 import bic02 from '../assets/images/RoubaixSportSpecialized.png';
@@ -18,6 +19,8 @@ import cas03 from '../assets/images/CHARGERMTBMerida.jpg';
 import cas04 from '../assets/images/Chamonix2Specialized.png';
 import cas05 from '../assets/images/ProperoIIISpecialized.jpg';
 
+import logo from '../assets/img/website-icon.png';
+
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -25,10 +28,7 @@ const IndexPage = () => (
     <div id="main">
       <div className="inner">
         <header>
-          <h1>
-            sub titulo
-            <br />
-          </h1>
+          <img src={logo} wi />
           <p>
             Descripcion Descripcion Descripcion Descripcion Descripcion
             Descripcion Descripcion Descripcion Descripcion
@@ -39,12 +39,9 @@ const IndexPage = () => (
             <span className="image">
               <img src={bic01} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Rockhopper Elite - Specialized</h2>
-              <div className="content">
-                <p>Descripcion</p>
-              </div>
-            </Link>
+            <Link to="/Generic2"></Link>
+            <Descripcion titulo="" imagen="" />
+            <h2>Rockhopper Elite - Specialized</h2>
             <div className="boton">
               <div className="button primary small">$159,000</div>
             </div>
@@ -54,12 +51,8 @@ const IndexPage = () => (
             <span className="image">
               <img src={bic02} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Roubaix Sport - Specialized</h2>
-              <div className="content">
-                <p>descripcion</p>
-              </div>
-            </Link>
+            <Link to="/Generic"></Link>
+            <h2>Roubaix Sport - Specialized</h2>
             <div className="boton">
               <div className="button primary small">$250,000</div>
             </div>
@@ -70,133 +63,92 @@ const IndexPage = () => (
               <img src={bic03} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Diverge Sport Carbon - Specialized</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
             </Link>
+              <h2>Diverge Sport Carbon - Specialized</h2>
             <div className="boton">
               <div className="button primary small">$150,000</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={bic04} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Tarmac SL6 Sport - Specialized</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
             </Link>
+              <h2>Tarmac SL6 Sport - Specialized</h2>
             <div className="boton">
               <div className="button primary small">$150,000</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={bic05} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Sirrus X - Specialized</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
             </Link>
+              <h2>Sirrus X - Specialized</h2>
             <div className="boton">
               <div className="button primary small">$120,000</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={bic06} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>SCULTURA TEAM - Merida</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
             </Link>
+              <h2>SCULTURA TEAM - Merida</h2>
             <div className="boton">
               <div className="button primary small">$192,000</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={bic07} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>SCULTURA ENDURANCE 9000 - Merida</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
             </Link>
+              <h2>SCULTURA ENDURANCE 9000 - Merida</h2>
             <div className="boton">
               <div className="button primary small">$267,500</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={bic08} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>SPEEDER 200 - Merida</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
             </Link>
+              <h2>SPEEDER 200 - Merida</h2>
             <div className="boton">
               <div className="button primary small">$200,000</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={bic09} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>MATTS J. 24+ - Merida</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
             </Link>
+              <h2>MATTS J. 24+ - Merida</h2>
             <div className="boton">
               <div className="button primary small">$247,000</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={bic10} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>REACTO 8000 - Merida</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
             </Link>
+              <h2>REACTO 8000 - Merida</h2>
             <div className="boton">
               <div className="button primary small">$211,000</div>
             </div>
@@ -208,83 +160,52 @@ const IndexPage = () => (
             <span className="image">
               <img src={cas01} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Align II - Specialized</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
+            <Link to="/Generic"></Link>
+            <h2>Align II - Specialized</h2>
             <div className="boton">
               <div className="button primary small">$12.000</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={cas02} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Chamonix 2 - Specialized</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
+            <Link to="/Generic"></Link>
+            <h2>Chamonix 2 - Specialized</h2>
             <div className="boton">
               <div className="button primary small">$17,500</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={cas03} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>CHARGER MTB - Merida</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
+            <Link to="/Generic"></Link>
+            <h2>CHARGER MTB - Merida</h2>
             <div className="boton">
               <div className="button primary small">$20.000</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={cas04} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>SHADOW Junior - Merida</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
+            <Link to="/Generic"></Link>
+            <h2>SHADOW Junior - Merida</h2>
             <div className="boton">
               <div className="button primary small">$25.000</div>
             </div>
           </article>
+
           <article className="style1">
             <span className="image">
               <img src={cas05} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Propero III - Specialized</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
+            <Link to="/Generic"></Link>
+            <h2>Propero III - Specialized</h2>
             <div className="boton">
               <div className="button primary small">$14.000</div>
             </div>
